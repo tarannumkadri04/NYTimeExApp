@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  NYTimeExApp
 //
-//  Created by admin on 7/14/18.
+//  Create by Tarannum Kadri on 14/7/2018
 //  Copyright © 2018 admin. All rights reserved.
 //
 
@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        //Change the statusbar style from default to lightcontent
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+        //Change navigation bar tint color
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+
         return true
     }
 

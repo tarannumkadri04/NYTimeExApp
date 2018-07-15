@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B058FFA20FA4A2D00AAF7E1 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FF620FA4A2D00AAF7E1 /* Media.swift */; };
+		1B058FFB20FA4A2D00AAF7E1 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FF720FA4A2D00AAF7E1 /* Response.swift */; };
+		1B058FFC20FA4A2D00AAF7E1 /* Media-metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FF820FA4A2D00AAF7E1 /* Media-metadata.swift */; };
+		1B058FFD20FA4A2D00AAF7E1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B058FF920FA4A2D00AAF7E1 /* Result.swift */; };
 		842F183120F9EEC800181D16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F183020F9EEC800181D16 /* AppDelegate.swift */; };
-		842F183320F9EEC800181D16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F183220F9EEC800181D16 /* ViewController.swift */; };
-		842F183620F9EEC800181D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F183420F9EEC800181D16 /* Main.storyboard */; };
 		842F183820F9EED500181D16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842F183720F9EED500181D16 /* Assets.xcassets */; };
-		842F183B20F9EED500181D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F183920F9EED500181D16 /* LaunchScreen.storyboard */; };
 		842F184620F9EED500181D16 /* NYTimeExAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F184520F9EED500181D16 /* NYTimeExAppTests.swift */; };
 		842F185120F9EED500181D16 /* NYTimeExAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F185020F9EED500181D16 /* NYTimeExAppUITests.swift */; };
+		842F186220F9EF5700181D16 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F186120F9EF5700181D16 /* DashboardVC.swift */; };
+		842F186C20F9F0AF00181D16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F186820F9F0AF00181D16 /* LaunchScreen.storyboard */; };
+		842F186D20F9F0AF00181D16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F186A20F9F0AF00181D16 /* Main.storyboard */; };
+		842F187020F9F33100181D16 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F186F20F9F33100181D16 /* AppConstants.swift */; };
+		842F187220F9F76800181D16 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F187120F9F76800181D16 /* NetworkManager.swift */; };
+		842F187F20FA17A100181D16 /* DashboardCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F187E20FA17A100181D16 /* DashboardCustomCell.swift */; };
+		842F188120FA209E00181D16 /* DashboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F188020FA209E00181D16 /* DashboardManager.swift */; };
+		842F188320FA788C00181D16 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F188220FA788C00181D16 /* Extensions.swift */; };
+		B7E847213000E5E17CA1CB2C /* Pods_NYTimeExApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E63D01614208253F22C2346 /* Pods_NYTimeExApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B058FF620FA4A2D00AAF7E1 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		1B058FF720FA4A2D00AAF7E1 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		1B058FF820FA4A2D00AAF7E1 /* Media-metadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Media-metadata.swift"; sourceTree = "<group>"; };
+		1B058FF920FA4A2D00AAF7E1 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		745A3A84301947CB3E644331 /* Pods-NYTimeExApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimeExApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NYTimeExApp/Pods-NYTimeExApp.release.xcconfig"; sourceTree = "<group>"; };
 		842F182D20F9EEC800181D16 /* NYTimeExApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimeExApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F183020F9EEC800181D16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		842F183220F9EEC800181D16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		842F183520F9EEC800181D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842F183720F9EED500181D16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		842F183A20F9EED500181D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842F183C20F9EED500181D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842F184120F9EED500181D16 /* NYTimeExAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimeExAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F184520F9EED500181D16 /* NYTimeExAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimeExAppTests.swift; sourceTree = "<group>"; };
@@ -47,6 +59,16 @@
 		842F184C20F9EED500181D16 /* NYTimeExAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTimeExAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F185020F9EED500181D16 /* NYTimeExAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTimeExAppUITests.swift; sourceTree = "<group>"; };
 		842F185220F9EED500181D16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842F186120F9EF5700181D16 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		842F186920F9F0AF00181D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842F186B20F9F0AF00181D16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842F186F20F9F33100181D16 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		842F187120F9F76800181D16 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		842F187E20FA17A100181D16 /* DashboardCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCustomCell.swift; sourceTree = "<group>"; };
+		842F188020FA209E00181D16 /* DashboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardManager.swift; sourceTree = "<group>"; };
+		842F188220FA788C00181D16 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8E63D01614208253F22C2346 /* Pods_NYTimeExApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTimeExApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49FB0703DFDA4A2817EC2F2 /* Pods-NYTimeExApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTimeExApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NYTimeExApp/Pods-NYTimeExApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7E847213000E5E17CA1CB2C /* Pods_NYTimeExApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361EF72E06BCFCAA9D08F487 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E63D01614208253F22C2346 /* Pods_NYTimeExApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CEEFA925499622B185A4A3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D49FB0703DFDA4A2817EC2F2 /* Pods-NYTimeExApp.debug.xcconfig */,
+				745A3A84301947CB3E644331 /* Pods-NYTimeExApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		842F182420F9EEC800181D16 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				842F184420F9EED500181D16 /* NYTimeExAppTests */,
 				842F184F20F9EED500181D16 /* NYTimeExAppUITests */,
 				842F182E20F9EEC800181D16 /* Products */,
+				7CEEFA925499622B185A4A3F /* Pods */,
+				361EF72E06BCFCAA9D08F487 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +139,13 @@
 		842F182F20F9EEC800181D16 /* NYTimeExApp */ = {
 			isa = PBXGroup;
 			children = (
-				842F183020F9EEC800181D16 /* AppDelegate.swift */,
-				842F183220F9EEC800181D16 /* ViewController.swift */,
-				842F183420F9EEC800181D16 /* Main.storyboard */,
-				842F183720F9EED500181D16 /* Assets.xcassets */,
-				842F183920F9EED500181D16 /* LaunchScreen.storyboard */,
+				842F185E20F9EF0700181D16 /* AppDelegate */,
+				842F186E20F9F2FA00181D16 /* Constants */,
+				842F186020F9EF2A00181D16 /* Entity */,
+				842F186320F9EF5E00181D16 /* Controller */,
+				842F185F20F9EF2100181D16 /* Managers */,
+				842F186620F9F01200181D16 /* View */,
+				842F187B20FA13FD00181D16 /* Resource */,
 				842F183C20F9EED500181D16 /* Info.plist */,
 			);
 			path = NYTimeExApp;
@@ -125,6 +169,85 @@
 			path = NYTimeExAppUITests;
 			sourceTree = "<group>";
 		};
+		842F185E20F9EF0700181D16 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				842F183020F9EEC800181D16 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		842F185F20F9EF2100181D16 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				842F187120F9F76800181D16 /* NetworkManager.swift */,
+				842F188020FA209E00181D16 /* DashboardManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		842F186020F9EF2A00181D16 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1B058FF820FA4A2D00AAF7E1 /* Media-metadata.swift */,
+				1B058FF620FA4A2D00AAF7E1 /* Media.swift */,
+				1B058FF720FA4A2D00AAF7E1 /* Response.swift */,
+				1B058FF920FA4A2D00AAF7E1 /* Result.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		842F186320F9EF5E00181D16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				842F187D20FA172200181D16 /* DetailVC */,
+				842F187C20FA171400181D16 /* DashboardVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		842F186620F9F01200181D16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				842F186820F9F0AF00181D16 /* LaunchScreen.storyboard */,
+				842F186A20F9F0AF00181D16 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		842F186E20F9F2FA00181D16 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				842F186F20F9F33100181D16 /* AppConstants.swift */,
+				842F188220FA788C00181D16 /* Extensions.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		842F187B20FA13FD00181D16 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				842F183720F9EED500181D16 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		842F187C20FA171400181D16 /* DashboardVC */ = {
+			isa = PBXGroup;
+			children = (
+				842F186120F9EF5700181D16 /* DashboardVC.swift */,
+				842F187E20FA17A100181D16 /* DashboardCustomCell.swift */,
+			);
+			path = DashboardVC;
+			sourceTree = "<group>";
+		};
+		842F187D20FA172200181D16 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842F185520F9EED500181D16 /* Build configuration list for PBXNativeTarget "NYTimeExApp" */;
 			buildPhases = (
+				C96B0BD1BF3495540464CD90 /* [CP] Check Pods Manifest.lock */,
 				842F182920F9EEC800181D16 /* Sources */,
 				842F182A20F9EEC800181D16 /* Frameworks */,
 				842F182B20F9EEC800181D16 /* Resources */,
+				A1A62CC7A636751660C9F127 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +354,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842F183B20F9EED500181D16 /* LaunchScreen.storyboard in Resources */,
+				842F186D20F9F0AF00181D16 /* Main.storyboard in Resources */,
 				842F183820F9EED500181D16 /* Assets.xcassets in Resources */,
-				842F183620F9EEC800181D16 /* Main.storyboard in Resources */,
+				842F186C20F9F0AF00181D16 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +376,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A1A62CC7A636751660C9F127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NYTimeExApp/Pods-NYTimeExApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NYTimeExApp/Pods-NYTimeExApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C96B0BD1BF3495540464CD90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NYTimeExApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		842F182920F9EEC800181D16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842F183320F9EEC800181D16 /* ViewController.swift in Sources */,
+				1B058FFB20FA4A2D00AAF7E1 /* Response.swift in Sources */,
+				1B058FFC20FA4A2D00AAF7E1 /* Media-metadata.swift in Sources */,
+				842F187220F9F76800181D16 /* NetworkManager.swift in Sources */,
 				842F183120F9EEC800181D16 /* AppDelegate.swift in Sources */,
+				1B058FFA20FA4A2D00AAF7E1 /* Media.swift in Sources */,
+				842F188120FA209E00181D16 /* DashboardManager.swift in Sources */,
+				1B058FFD20FA4A2D00AAF7E1 /* Result.swift in Sources */,
+				842F186220F9EF5700181D16 /* DashboardVC.swift in Sources */,
+				842F187F20FA17A100181D16 /* DashboardCustomCell.swift in Sources */,
+				842F188320FA788C00181D16 /* Extensions.swift in Sources */,
+				842F187020F9F33100181D16 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,20 +470,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		842F183420F9EEC800181D16 /* Main.storyboard */ = {
+		842F186820F9F0AF00181D16 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				842F183520F9EEC800181D16 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		842F183920F9EED500181D16 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				842F183A20F9EED500181D16 /* Base */,
+				842F186920F9F0AF00181D16 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		842F186A20F9F0AF00181D16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842F186B20F9F0AF00181D16 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -428,6 +605,7 @@
 		};
 		842F185620F9EED500181D16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49FB0703DFDA4A2817EC2F2 /* Pods-NYTimeExApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +623,7 @@
 		};
 		842F185720F9EED500181D16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 745A3A84301947CB3E644331 /* Pods-NYTimeExApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
